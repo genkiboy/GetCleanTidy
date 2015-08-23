@@ -9,7 +9,7 @@
     4. SITTING
     5. STANDING
     6. LAYING [sic]
-  1. **Measure** - Factor w/ 477 levels (**__though in reality, only 66 levels remain. I couldn't work out how to remove the additional factor levels using droplevels(), etc.__**). These 66 levels are formed from a combination of:
+  1. **Measure** - Factor w/ 477 levels (**_though in reality, only 66 levels remain. I couldn't work out how to remove the additional factor levels using droplevels(), etc._**). These 66 levels are formed from a combination of:
     1. The following 33 signals (*'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.*):
       1. tBodyAcc-XYZ (3 signals)
       1. tGravityAcc-XYZ (3 signals)
