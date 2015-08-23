@@ -10,7 +10,6 @@ www.smartlab.ws
 
 Input data are read from './UCI HAR Dataset/', where '.' represents
 the R working directory. The dataset includes the following files:
-=========================================
 
 - 'README.txt'
 
