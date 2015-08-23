@@ -22,8 +22,8 @@ the R working directory. The dataset includes the following files:
   1. 'train/subject_train.txt': Each row identifies the subject who performed the activity for each row in X_train.txt.
 
 #### C. General data (i.e., "lookup tables")
-  1. 'features.txt': List of all 561 "features" or measures in the data sets.
   1. 'activity_labels.txt': Links the class labels (ie, in y_test.txt and t_train.txt) with their activity names.
+  1. 'features.txt': List of all 561 "features" or measures in the data sets.
 
 ## How the analysis code works
   1. Read in necessary R libraries (dplyr, tidyr, and reshape2)
@@ -37,8 +37,8 @@ the R working directory. The dataset includes the following files:
     2. Rename field "V1" in subject_training.txt to "subNo"
     3. Combine the three files into one data frame named "train" using dplyr::bind_cols
     4. Add field "subgroup" with value "Training" to indicate these data came from the Training data set
-  1. 
-  1. 
+  1. Combine data frames "test" and "train" into single data frame named "full" using dplyr::bindrows
+  1. Read in acti
   1. 
   1. 
   1. 
