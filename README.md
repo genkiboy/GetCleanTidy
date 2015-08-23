@@ -12,9 +12,9 @@ Input data are read from './UCI HAR Dataset/', where '.' represents
 the R working directory. The dataset includes the following files:
 
 #### Training data
-1 'train/X_train.txt': Training set containing ~70% of total data. Each row contains a 561-feature vector with time and frequency domain variables.
-1 'train/y_train.txt': Training labels. Each row identifies the activity number (1 - 6) for each row in X_train.txt.
-1 'train/subject_train.txt': Each row identifies the subject who performed the activity for each row in X_train.txt.
+1. 'train/X_train.txt': Training set containing ~70% of total data. Each row contains a 561-feature vector with time and frequency domain variables.
+1. 'train/y_train.txt': Training labels. Each row identifies the activity number (1 - 6) for each row in X_train.txt.
+1. 'train/subject_train.txt': Each row identifies the subject who performed the activity for each row in X_train.txt.
 
 #### Test data
 1 'test/X_test.txt': Test set containing ~30% of total data. Each row contains a 561-feature vector with time and frequency domain variables.
