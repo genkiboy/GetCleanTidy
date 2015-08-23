@@ -55,11 +55,8 @@ the R working directory. The dataset includes the following files:
       1. Values containing the character string "-mean()"
       2. Values containing the character string "-std()"
     4. Select columns subNo, Activity, subgroup, value, and varName (i.e., dropping the rest)
-  1. 
-  1. 
-  1. 
-  1. 
-  1. 
-  1. 
-  1. 
-  1. 
+  1. Create data frame "finalData" as grouped means of "fullMelt"
+    1. Group df fullMelt by subNo, Activity, and varName using dply::group_by
+    2. Change field name varName to "Measure"
+    3. Calculate group means (as field "meanValue") using dplyr::summarize
+  1. Write data frame finalData to output file "KES_GetClean_Step5_Tidy.txt
