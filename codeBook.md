@@ -28,7 +28,7 @@ The data file is composed of four elements :
       1. fBodyAccJerkMag
       1. fBodyGyroMag
       1. fBodyGyroJerkMag 
-    2. The set of variables estimated from each signal:
+    2. The following two (2) variables estimated from each signal:
       3. Mean
       4. Standard deviation
   1. meanValue - numeric - the mean value for each unique combination of subNo, Activity, and Measure
