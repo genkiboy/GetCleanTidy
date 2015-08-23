@@ -11,15 +11,17 @@ www.smartlab.ws
 Input data are read from './UCI HAR Dataset/', where '.' represents
 the R working directory. The dataset includes the following files:
 
-## Training data
+### Training data
 - 'train/X_train.txt': Training set containing ~70% of total data. Each row contains a 561-feature vector with time and frequency domain variables.
 - 'train/y_train.txt': Training labels. Each row identifies the activity number (1 - 6) for each row in X_train.txt.
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each row in X_train.txt.
 
+### Test data
 - 'test/X_test.txt': Test set containing ~30% of total data. Each row contains a 561-feature vector with time and frequency domain variables.
 - 'test/y_test.txt': Test labels. Each row identifies the activity number (1 - 6) for each row in X_test.txt.
 - 'train/subject_test.txt': Each row identifies the subject who performed the activity for each row in X_test.txt.
 
+### General data (i.e., "lookup tables")
 - 'features.txt': List of all "features" or measures in data set.
 
 - 'activity_labels.txt': Links the class labels (ie, in y_test.txt and t_train.txt) with their activity names.
